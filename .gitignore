@@ -1,0 +1,47 @@
+# =========================================
+# ⚙️  Arquivos e pastas do Python
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Ambientes virtuais
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================================
+# 🧠  Arquivos de Machine Learning
+# =========================================
+# Modelos e artefatos gerados
+model.joblib
+metrics.json
+
+# Dados brutos ou temporários
+data/*.tmp
+data/*.bak
+data/*.log
+
+# =========================================
+# 🧪  Testes e logs
+# =========================================
+.pytest_cache/
+coverage/
+*.cover
+*.log
+
+# =========================================
+# 📦  Dependências e build
+# =========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
